@@ -10,11 +10,17 @@ body {
     padding: 16px;
 }
 
+h1 {
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 16px;
-    justify-content: left;
+    justify-content: center;
+    margin-bottom: 16px;
 }
 
 .sound-button {
